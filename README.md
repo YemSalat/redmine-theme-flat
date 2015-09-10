@@ -11,7 +11,8 @@ Fixes a few small issues + some design tweaks
 
 ## Installation
 
-1. Open redmine in a browser and go to Administration > Settings > Display > Theme.
+1. Clone to `themes/`
+2. Open redmine in a browser and go to Administration > Settings > Display > Theme.
 
 ## Make it yours
 
