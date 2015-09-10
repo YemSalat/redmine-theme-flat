@@ -62,7 +62,7 @@ th {
   height: auto;
   min-height: 4em;
   background: $gray-dark;
-      padding: 18px 17px 7px 17px;
+      padding: 18px 17px 0 17px;
   > h1,
   > h1:before {
     display: inline-block;
@@ -103,6 +103,7 @@ th {
   position: relative;
   left: 0;
   margin-right: 0;
+  margin-top: 5px;
   @include pie-clearfix;
   li {
     a {
