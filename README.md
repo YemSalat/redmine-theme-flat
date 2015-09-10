@@ -1,14 +1,15 @@
-Flat theme for Redmine
+Flat theme 2 for Redmine (original theme: https://github.com/tsi/redmine-theme-flat by tsi@github.com)
 ======================
 
-[screenshot1]: http://i.imgur.com/rMc4UUc.jpg "Flat screenshot"
+Fixes a few small issues + some design tweaks
 
-![Flat screenshot][screenshot1]
+[screenshot1]: http://i.imgur.com/tPosQBl.png "Flat 2 screenshot"
+
+![Flat 2 screenshot][screenshot1]
 
 ## Installation
 
-1. [Download](https://github.com/tsi/redmine-theme-flat/archive/master.zip) the theme to `redmine/public/theme/`
-2. Open redmine in a browser and go to Administration > Settings > Display > Theme.
+1. Open redmine in a browser and go to Administration > Settings > Display > Theme.
 
 ## Make it yours
 
