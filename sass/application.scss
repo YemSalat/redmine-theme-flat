@@ -246,8 +246,14 @@ table.query-columns td.buttons input[type=button] {
   padding: 0;
 }
 
-/* Fixes */
+/* FIXES */
+/* Field height in admin tabs */
 fieldset input[type="text"],
 fieldset select {
   height: 2.5em;
+}
+
+/* Calendar today background */
+table.cal td.today {
+    background: rgba(255, 236, 0, 0.30);
 }
