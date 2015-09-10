@@ -1,5 +1,7 @@
-Flat theme 2 for Redmine (original theme: https://github.com/tsi/redmine-theme-flat by tsi@github.com)
+Flat theme 2 for Redmine
 ======================
+
+Original theme: https://github.com/tsi/redmine-theme-flat by tsi@github.com
 
 Fixes a few small issues + some design tweaks
 
