@@ -247,6 +247,7 @@ table.query-columns td.buttons input[type=button] {
 }
 
 /* FIXES */
+
 /* Field height in admin tabs */
 fieldset input[type="text"],
 fieldset select {
@@ -256,4 +257,14 @@ fieldset select {
 /* Calendar today background */
 table.cal td.today {
     background: rgba(255, 236, 0, 0.30);
+}
+
+/* Bold all issues link */
+.contextual > a[href="/issues"] {
+  font-weight: bold;
+}
+
+/* Make it the tooltips in Gantt chart view stay closer */
+div.tooltip:hover span.tip {
+  left: 4px;
 }

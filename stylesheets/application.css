@@ -772,3 +772,13 @@ fieldset select {
 table.cal td.today {
   background: rgba(255, 236, 0, 0.3);
 }
+
+/* Bold all issues link */
+.contextual > a[href="/issues"] {
+  font-weight: bold;
+}
+
+/* Make it the tooltips in Gantt chart view stay closer */
+div.tooltip:hover span.tip {
+  left: 4px;
+}

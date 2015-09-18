@@ -16,11 +16,26 @@
 
     // redirect
     // CHECK ADMIN
-    if ( $('#top-menu a.administration').length ) {
-      $('$top-menu>ul>li').eq(0).hide();
-      $('$top-menu>ul>li').eq(3).hide();
-      $('$top-menu>ul>li').eq(4).hide();
+    if ( !$('#top-menu a.administration').length ) {
+      $('#top-menu>ul>li').eq(0).hide();
+      $('#top-menu>ul>li').eq(3).hide();
     }
+
+    if (document.location.href == 'http://redmine.struckandspink.com/') {
+      $('body').css({opacity: 0});
+    }
+    
+  });
+
+  $(window).load(function () {
+    window.setTimeout(function () {
+      if (document.location.href == 'http://redmine.struckandspink.com/') {
+        document.location.href = '/issues';
+      }
+      else {
+        $('body').css({opacity: 1});
+      }
+    }, 10);
   });
 
 })(jQuery);
